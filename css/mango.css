@@ -26,3 +26,19 @@
 #contact-section{
     text-align: center;
 }
+
+/******************************************
+/* MEDIA QUERIES */
+/*******************************************/
+/* MQ FOR MOBILE DEVICE */
+@media only screen and (max-width:767px) {
+    .mobile-hide{
+        display: none;
+    }
+
+    #contact-section a{
+        display: inline-block;
+        padding-bottom: 10px;
+    }
+  
+} /* END MQ FOR MOBILE DEVICE */
