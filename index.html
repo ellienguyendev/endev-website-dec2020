@@ -1,488 +1,673 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
 
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="fonts/icomoon/style.css" />
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mango.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
 
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-  <link rel="stylesheet" href="fonts/icomoon/style.css">
-  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-  <link rel="stylesheet" href="css/aos.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/mango.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <title>Ellie Nguyen Dev Portfolio</title>
+  </head>
 
-  <title>Ellie Nguyen Dev Portfolio</title>
-</head>
-
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="100">
-
-  <div class="site-mobile-menu site-navbar-target">
-    <div class="site-mobile-menu-header">
-      <div class="site-mobile-menu-close">
-        <span class="icofont-close js-menu-toggle"></span>
-      </div>
-    </div>
-    <div class="site-mobile-menu-body"></div>
-  </div>
-
-  <nav class="site-nav js-site-navbar mb-5 site-navbar-target">
-    <div class="container">
-
-
-
-      <div class="site-navigation text-center">
-        <ul class="js-clone-nav ml-0 pl-0 d-none d-lg-inline-block site-menu mx-auto text-center">
-          <li class="active"><a href="#home-section" class="nav-link" style="color: black">Home</a></li>
-          <li><a href="#about-section" class="nav-link" style="color: black">About</a></li>
-          <li><a href="#portfolio-section" class="nav-link" style="color: black">Portfolio</a></li>
-          <li><a href="#services-section" class="nav-link" style="color: black">Blog</a></li>
-          <li><a href="#contact-section" class="nav-link" style="color: black">Contact</a></li>
-        </ul>
-
-        <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block light d-lg-none"
-          data-toggle="collapse" data-target="#main-navbar">
-          <span></span>
-        </a>
-
-      </div>
-    </div>
-  </nav>
-
-  <div class="site-blocks-cover mobile-hide" style="background-image: url(images/website-banner.png);" data-aos="fade"
-    data-stellar-background-ratio="0.5" id="home-section">
-  </div>
-
-
-
-
-  <section class="site-section" id="about-section">
-    <div class="container">
-      <div class="row mb-5 align-items-center">
-        <div class="col-lg-7 pr-lg-5 mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="0">
-          <div class="img-wrap mobile-hide">
-            <img src="images/image_1_long.jpg" alt="Image placeholder" class="img-fluid">
-          </div>
-
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="100">
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close">
+          <span class="icofont-close js-menu-toggle"></span>
         </div>
-        <div class="col-lg-5 pl-lg-5" data-aos="fade-up" data-aos-delay="100">
-          <div class="section-heading">
-            <h2><span class="highlight">Hi, I'm Ellie! 👩🏻‍💻👋🏼 </span></h2>
-          </div>
-          <br />
-          <p>I’m a software engineer, artist, and organizer but titles aside- I just <strong>care</strong>. My work has always been about people before anything else because I believe everyone should have the tools they need to thrive and succeed. Technology has an incredible capacity to transform lives so I aim to use my skills to break down barriers in places that have been historically inaccessible for marginalized groups.</p>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
 
-          <p>Currently that looks like:</p>
+    <nav class="site-nav js-site-navbar mb-5 site-navbar-target">
+      <div class="container">
+        <div class="site-navigation text-center">
+          <ul
+            class="js-clone-nav ml-0 pl-0 d-none d-lg-inline-block site-menu mx-auto text-center"
+          >
+            <li class="active">
+              <a href="#home-section" class="nav-link" style="color: black"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a href="#about-section" class="nav-link" style="color: black"
+                >About</a
+              >
+            </li>
+            <li>
+              <a href="#portfolio-section" class="nav-link" style="color: black"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a href="#services-section" class="nav-link" style="color: black"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a href="#contact-section" class="nav-link" style="color: black"
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <a
+            href="#"
+            class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block light d-lg-none"
+            data-toggle="collapse"
+            data-target="#main-navbar"
+          >
+            <span></span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      class="site-blocks-cover mobile-hide"
+      style="background-image: url(images/website-banner.png)"
+      data-aos="fade"
+      data-stellar-background-ratio="0.5"
+      id="home-section"
+    ></div>
+
+    <section class="site-section" id="about-section">
+      <div class="container">
+        <div class="row mb-5 align-items-center">
+          <div
+            class="col-lg-7 pr-lg-5 mb-5 mb-lg-0"
+            data-aos="fade-up"
+            data-aos-delay="0"
+          >
+            <div class="img-wrap mobile-hide">
+              <img
+                src="images/image_1_long.jpg"
+                alt="Image placeholder"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="col-lg-5 pl-lg-5" data-aos="fade-up" data-aos-delay="100">
+            <div class="section-heading">
+              <h2><span class="highlight">Hi, I'm Ellie! 👩🏻‍💻👋🏼 </span></h2>
+            </div>
+            <br />
+            <p>
+              I’m a software engineer, artist, and organizer but titles aside- I
+              just <strong>care</strong>. My work has always been about people
+              before anything else because I believe everyone should have the
+              tools they need to thrive and succeed. Technology has an
+              incredible capacity to transform lives so I aim to use my skills
+              to break down barriers in places that have been historically
+              inaccessible for marginalized groups.
+            </p>
+
+            <p>Currently:</p>
+            <ul>
+              <li>
+                Working at Resilient Coders as an Expert in Residence, mentoring
+                students going through an intensive 20-week bootcamp where they
+                learn Javascript, Node, and React
+              </li>
+              <li>
+                Writing technical blogs posts and streaming while I build
+                projects
+              </li>
+              <li>
+                Creating websites and other digital remedies for clients in the
+                wellness and art industries
+              </li>
+            </ul>
+
+            <div class="my-5">
+              <h3>Skills</h3>
+              <div class="skills-icon">
+                <i class="fas fa-code" style="color: #dd4b30"></i>
+                <h4>HTML & CSS</h4>
+              </div>
+
+              <div class="skills-icon">
+                <i class="fab fa-js-square" style="color: #f5d631"></i>
+                <h4>Javascript ES6</h4>
+              </div>
+
+              <div class="skills-icon">
+                <i class="fab fa-react" style="color: #5fd4f4"></i>
+                <h4>React</h4>
+              </div>
+
+              <div class="skills-icon">
+                <i class="fab fa-node-js" style="color: #88c249"></i>
+                <h4>Node.js</h4>
+              </div>
+
+              <div class="skills-icon">
+                <i class="fab fa-php" style="color: #777bb3"></i>
+                <h4>PHP</h4>
+              </div>
+
+              <div class="skills-icon">
+                <i class="fab fa-java" style="color: #df3c31"></i>
+                <h4>Java</h4>
+              </div>
+
+              <div class="skills-icon">
+                <i class="fas fa-project-diagram" style="color: #e374c1"></i>
+                <h4>GraphQL</h4>
+              </div>
+
+              <div class="skills-icon">
+                <i class="fas fa-database" style="color: #822541"></i>
+                <h4>SQL & NoSQL</h4>
+              </div>
+
+              <div class="skills-icon">
+                <i class="fab fa-android" style="color: #29cc61"></i>
+                <h4>Android</h4>
+              </div>
+
+              <div class="skills-icon">
+                <i class="fab fa-wordpress-simple" style="color: #47aeff"></i>
+                <h4>Wordpress & Wix</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="untree_co-section mobile-hide" id="portfolio-section">
+      <div class="container text-center">
+        <div class="row">
+          <div
+            class="section-heading text-center col-md-12"
+            data-aos="fade-up"
+            data-aos-delay="0"
+          >
+            <h2>Web Design & Full-Stack Development</h2>
+          </div>
+        </div>
+        <div class="filters" data-aos="fade-up" data-aos-delay="100">
           <ul>
-          <li>Working at Resilient Coders as an Expert in Residence, mentoring students going through an intensive 20-week bootcamp where they learn Javascript, Node, and React</li>
-<li>Meeting regularly with new developers for coffee chats and additional mentorship</li>
-<li>Writing technical blogs posts and streaming while I build projects</li>
-<li>Creating websites and other digital remedies for clients in the wellness and art industries</li>
-</ul>
+            <li class="active" data-filter="*">All</li>
+            <li data-filter=".website">Websites</li>
+            <li data-filter=".application">Applications</li>
+            <li data-filter=".media">Applications</li>
+          </ul>
+        </div>
 
-          <div class="my-5">
-            <h3>Skills</h3>
-            <div class="skills-icon">
-              <i class="fas fa-code" style="color: #DD4B30;"></i>
-              <h4>HTML & CSS</h4>
+        <div
+          class="filters-content mb-5"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <div class="row grid">
+            <div class="single-portfolio col-sm-4 all website">
+              <a href="https://www.sdaff.org/2021" target="_blank">
+                <img src="images/sdaff.png" alt="Image" class="img-fluid" />
+                <div class="contents">
+                  <h3>San Diego Asian Film Festival</h3>
+                  <div class="cat">Website</div>
+                </div>
+              </a>
             </div>
 
-            <div class="skills-icon">
-              <i class="fab fa-js-square" style="color: #F5D631;"></i>
-              <h4>Javascript ES6</h4>
+            <div class="single-portfolio col-sm-4 all website">
+              <a href="https://www.sdaff.org/" target="_blank">
+                <img src="images/sdaff2.png" alt="Image" class="img-fluid" />
+                <div class="contents">
+                  <h3>SDAFF Spring Showcase</h3>
+                  <div class="cat">Website</div>
+                </div>
+              </a>
             </div>
 
-            <div class="skills-icon">
-              <i class="fab fa-react" style="color: #5FD4F4;"></i>
-              <h4>React</h4>
+            <div class="single-portfolio col-sm-4 all application">
+              <a
+                href="https://soapbox.wistia.com/videos/0pDD84TmEz"
+                target="_blank"
+              >
+                <img src="images/work_2.jpg" alt="Image" class="img-fluid" />
+                <div class="contents">
+                  <h3>Wake Up and Grow</h3>
+                  <div class="cat">Full-Stack Application</div>
+                </div>
+              </a>
             </div>
 
-            <div class="skills-icon">
-              <i class="fab fa-node-js" style="color: #88C249;"></i>
-              <h4>Node.js</h4>
+            <div class="single-portfolio col-sm-4 all application">
+              <a
+                href="https://github.com/ellienguyendev/community-apps-with-google-cloud-api"
+                target="_blank"
+              >
+                <img src="images/app-gif.gif" alt="Image" class="img-fluid" />
+                <div class="contents">
+                  <h3>Community Resources by Location</h3>
+                  <div class="cat">Full-Stack Application</div>
+                </div>
+              </a>
             </div>
 
-            <div class="skills-icon">
-              <i class="fab fa-php" style="color: #777BB3;"></i>
-              <h4>PHP</h4>
+            <div class="single-portfolio col-sm-4 all website">
+              <a href="https://www.lakoudantes.com" target="_blank">
+                <img src="images/lakou.png" alt="Image" class="img-fluid" />
+                <div class="contents">
+                  <h3>Lakou Dantes</h3>
+                  <div class="cat">E-Commerce</div>
+                </div>
+              </a>
             </div>
 
-            <div class="skills-icon">
-              <i class="fab fa-java" style="color: #DF3C31;"></i>
-              <h4>Java</h4>
+            <div class="single-portfolio col-sm-4 all application">
+              <a href="https://readyseshgo.com" target="_blank">
+                <img src="images/sesh.png" alt="Image" class="img-fluid" />
+                <div class="contents">
+                  <h3>Sesh Wellness</h3>
+                  <div class="cat">Wellness Website</div>
+                </div>
+              </a>
             </div>
-
-            <div class="skills-icon">
-              <i class="fas fa-project-diagram" style="color: #E374C1;"></i>
-              <h4>GraphQL</h4>
-            </div>
-
-            <div class="skills-icon">
-              <i class="fas fa-database" style="color: #822541;"></i>
-              <h4>SQL & NoSQL</h4>
-            </div>
-
-            <div class="skills-icon">
-              <i class="fab fa-android" style="color: #29cc61;"></i>
-              <h4>Android</h4>
-            </div>
-
-            <div class="skills-icon">
-              <i class="fab fa-wordpress-simple" style="color: #47aeff;"></i>
-              <h4>Wordpress & Wix</h4>
+            <div class="single-portfolio col-sm-4 all website">
+              <a href="https://thetespa.com" target="_blank">
+                <img src="images/tespa.png" alt="Image" class="img-fluid" />
+                <div class="contents">
+                  <h3>The Té Spa</h3>
+                  <div class="cat">E-Commerce</div>
+                </div>
+              </a>
             </div>
           </div>
         </div>
       </div>
+    </section>
+    <!-- .untrtee_co-section -->
 
-
-    </div>
-  </section>
-
-
-  <section class="untree_co-section mobile-hide" id="portfolio-section">
-    <div class="container text-center">
-      <div class="row">
-        <div class="section-heading text-center col-md-12" data-aos="fade-up" data-aos-delay="0">
-          <h2>Web Design & Full-Stack Development</h2>
-        </div>
-      </div>
-      <div class="filters" data-aos="fade-up" data-aos-delay="100">
-        <ul>
-          <li class="active" data-filter="*">All</li>
-          <li data-filter=".website">Websites</li>
-          <li data-filter=".application">Applications</li>
-          <li data-filter=".media">Applications</li>
-        </ul>
-      </div>
-
-      <div class="filters-content mb-5" data-aos="fade-up" data-aos-delay="200">
-        <div class="row grid">
-
-          <div class="single-portfolio col-sm-4 all website">
-            <a href="https://www.psapapi.com" target="_blank">
-              <img src="images/work_1.jpg" alt="Image" class="img-fluid">
-              <div class="contents">
-                <h3>PSA Papi Podcast</h3>
-                <div class="cat">Website</div>
-              </div>
-            </a>
-          </div>
-
-          <div class="single-portfolio col-sm-4 all website">
-            <a href="https://www.asianwomenforhealth.org" target="_blank">
-              <img src="images/work_5.jpg" alt="Image" class="img-fluid">
-              <div class="contents">
-                <h3>Asian Women for Health</h3>
-                <div class="cat">Website</div>
-              </div>
-            </a>
-          </div>
-
-          <div class="single-portfolio col-sm-4 all application">
-            <a href="https://soapbox.wistia.com/videos/0pDD84TmEz" target="_blank">
-              <img src="images/work_2.jpg" alt="Image" class="img-fluid">
-              <div class="contents">
-                <h3>Wake Up and Grow</h3>
-                <div class="cat">Full-Stack Application</div>
-              </div>
-            </a>
-          </div>
-
-          <div class="single-portfolio col-sm-4 all application">
-            <a href="https://github.com/ellienguyendev/horoscope-express" target="_blank">
-              <img src="images/work_3.jpg" alt="Image" class="img-fluid">
-              <div class="contents">
-                <h3>Horoscopes</h3>
-                <div class="cat">Full-Stack Application</div>
-              </div>
-            </a>
-          </div>
-
-          <div class="single-portfolio col-sm-4 all website">
-            <a href="https://www.seedofosun.com" target="_blank">
-              <img src="images/work_4.jpg" alt="Image" class="img-fluid">
-              <div class="contents">
-                <h3>Seed of Osun</h3>
-                <div class="cat">E-Commerce</div>
-              </div>
-            </a>
-          </div>
-
-          <div class="single-portfolio col-sm-4 all application">
-            <a href="https://github.com/ellienguyendev/loveletters-express" target="_blank">
-              <img src="images/work_6.jpg" alt="Image" class="img-fluid">
-              <div class="contents">
-                <h3>Love Letters to Self</h3>
-                <div class="cat">Full-Stack Application</div>
-              </div>
-            </a>
-          </div>
-          <div class="single-portfolio col-sm-4 all website">
-            <a href="https://endev-jwli.netlify.app/" target="_blank">
-              <img src="images/work_7.jpg" alt="Image" class="img-fluid">
-              <div class="contents">
-                <h3>JWLIA</h3>
-                <div class="cat">Website Replica</div>
-              </div>
-            </a>
+    <div class="untree_co-section" id="services-section">
+      <div class="container">
+        <div class="row">
+          <div
+            class="section-heading text-center col-md-12 mb-5"
+            data-aos="fade-up"
+            data-aos-delay="0"
+          >
+            <h2>Blog Posts</h2>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- .untrtee_co-section -->
-
-  <div class="untree_co-section" id="services-section">
-    <div class="container">
-      <div class="row">
-        <div class="section-heading text-center col-md-12 mb-5" data-aos="fade-up" data-aos-delay="0">
-          <h2>Blog Posts</h2>
-        </div>
-      </div>
-      <div class="row">
-
-        <div class="col-md-6 col-lg-4 text-center mb-5" data-aos="fade-up" data-aos-delay="100">
-          <div class="site-service-item" data-animate-effect="fadeIn">
-            <span class="icon">
-              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-display" fill="currentColor"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M5.75 13.5c.167-.333.25-.833.25-1.5h4c0 .667.083 1.167.25 1.5H11a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1h.75z" />
-                <path fill-rule="evenodd"
-                  d="M13.991 3H2c-.325 0-.502.078-.602.145a.758.758 0 0 0-.254.302A1.46 1.46 0 0 0 1 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 0 0 .254-.302 1.464 1.464 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 0 0-.302-.254A1.46 1.46 0 0 0 13.99 3zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z" />
-              </svg>
-            </span>
-            <h3 class="mb-4">Development</h3>
-            <p>Front and back-end development to support your needs so you can focus on what's important. Services range
-              from developing a simple site to complex web-based applications, electronic businesses, automating
-              business operations, and social network services.</p>
-
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 text-center mb-5" data-aos="fade-up" data-aos-delay="200">
-          <div class="site-service-item" data-animate-effect="fadeIn">
-            <span class="icon">
-              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-binoculars" fill="currentColor"
-                xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd"
-                  d="M3 2.5A1.5 1.5 0 0 1 4.5 1h1A1.5 1.5 0 0 1 7 2.5V5h2V2.5A1.5 1.5 0 0 1 10.5 1h1A1.5 1.5 0 0 1 13 2.5v2.382a.5.5 0 0 0 .276.447l.895.447A1.5 1.5 0 0 1 15 7.118V14.5a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 14.5v-3a.5.5 0 0 1 .146-.354l.854-.853V9.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v.793l.854.853A.5.5 0 0 1 7 11.5v3A1.5 1.5 0 0 1 5.5 16h-3A1.5 1.5 0 0 1 1 14.5V7.118a1.5 1.5 0 0 1 .83-1.342l.894-.447A.5.5 0 0 0 3 4.882V2.5zM4.5 2a.5.5 0 0 0-.5.5V3h2v-.5a.5.5 0 0 0-.5-.5h-1zM6 4H4v.882a1.5 1.5 0 0 1-.83 1.342l-.894.447A.5.5 0 0 0 2 7.118V13h4v-1.293l-.854-.853A.5.5 0 0 1 5 10.5v-1A1.5 1.5 0 0 1 6.5 8h3A1.5 1.5 0 0 1 11 9.5v1a.5.5 0 0 1-.146.354l-.854.853V13h4V7.118a.5.5 0 0 0-.276-.447l-.895-.447A1.5 1.5 0 0 1 12 4.882V4h-2v1.5a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V4zm4-1h2v-.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5V3zm4 11h-4v.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5V14zm-8 0H2v.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5V14z" />
-              </svg>
-            </span>
-            <h3 class="mb-4">Design</h3>
-            <p>Web Design with your customer in mind. Consideration of user experience, search engine optimization,
-              accessibility, and technical details to perform in today’s competitive marketplace. Flawless functionality
-              across all user devices.</p>
-
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 text-center mb-5" data-aos="fade-up" data-aos-delay="300">
-          <div class="site-service-item" data-animate-effect="fadeIn">
-            <span class="icon">
-              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-basket3" fill="currentColor"
-                xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd"
-                  d="M10.243 1.071a.5.5 0 0 1 .686.172l3 5a.5.5 0 1 1-.858.514l-3-5a.5.5 0 0 1 .172-.686zm-4.486 0a.5.5 0 0 0-.686.172l-3 5a.5.5 0 1 0 .858.514l3-5a.5.5 0 0 0-.172-.686z" />
-                <path
-                  d="M0 6.5A.5.5 0 0 1 .5 6h15a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1zM.81 9c0 .035.004.07.011.105l1.201 5.604A1 1 0 0 0 3 15.5h10a1 1 0 0 0 .978-.79l1.2-5.605A.495.495 0 0 0 15.19 9h-1.011L13 14.5H3L1.821 9H.81z" />
-              </svg>
-            </span>
-            <h3 class="mb-4">Marketing</h3>
-            <p>Your story brought to life. With careful consideration of color schemes, typography, and essential design
-              principles, I will work with you every step of the way toward building a presence you’ll be proud to
-              represent your brand.</p>
-
-          </div>
-        </div>
-
-        <p>View the full blog on my main site: <a href="https://holistictech.io/blog">The Holistic Technologist</a></p>
-
-      </div>
-    </div>
-  </div> <!-- /.untree_co-seciton -->
-
-
-  <div class="site-section bg-light mobile-hide" id="testimonials-section">
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col-md-12" data-aos="fade-up" data-aos-delay="0">
-          <div class="section-heading text-center">
-            <h2>What It's Like Working With Me</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="block-47 d-flex mb-5">
-            <div class="block-47-image">
-              <img src="images/ab.jpeg" alt="Image placeholder" class="img-fluid">
+        <div class="row">
+          <div
+            class="col-md-6 col-lg-4 text-center mb-5"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="site-service-item" data-animate-effect="fadeIn">
+              <span class="icon">
+                <svg
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 16 16"
+                  class="bi bi-display"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.75 13.5c.167-.333.25-.833.25-1.5h4c0 .667.083 1.167.25 1.5H11a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1h.75z"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    d="M13.991 3H2c-.325 0-.502.078-.602.145a.758.758 0 0 0-.254.302A1.46 1.46 0 0 0 1 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 0 0 .254-.302 1.464 1.464 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 0 0-.302-.254A1.46 1.46 0 0 0 13.99 3zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z"
+                  />
+                </svg>
+              </span>
+              <h3 class="mb-4">Development</h3>
+              <p>
+                Front and back-end development to support your needs so you can
+                focus on what's important. Services range from developing a
+                simple site to complex web-based applications, electronic
+                businesses, automating business operations, and social network
+                services.
+              </p>
             </div>
-            <blockquote class="block-47-quote">
-              <p>&ldquo;I had the pleasure of hiring Ellie to create a website for my business; I realized that
-                outsourcing would make a better use of my time, and I approached them as my first choice. As usual,
-                Ellie did not disappoint. After I communicated my vision, Ellie went above and beyond and did not
-                deliver on my expectations, but instead far surpassed them. What could have been a simple front-end
-                project, Ellie turned into a full-stack web app with features that will significantly reduce the time
-                and effort I will need to maintain my operations. I cannot communicate how immensely grateful for their
-                work, nor how pleased I am with this project. Ellie's ability to anticipate even the unspoken needs of
-                both the business and consumer lended to an exceptional execution of user experience.</p>
-
-              <p>I am most confident that Ellie can achieve absolutely anything to which they set their mind. They
-                possess the competencies necessary for any full-stack role: on a team or solo, managing or supporting,
-                coding or instructing. The pleasure would truly be yours to hire them.&rdquo;</p>
-              <cite class="block-47-quote-author">&mdash; Anthony Betances <a href="#">Software Engineer, Business
-                  Owner</a></cite>
-            </blockquote>
+          </div>
+          <div
+            class="col-md-6 col-lg-4 text-center mb-5"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="site-service-item" data-animate-effect="fadeIn">
+              <span class="icon">
+                <svg
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 16 16"
+                  class="bi bi-binoculars"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M3 2.5A1.5 1.5 0 0 1 4.5 1h1A1.5 1.5 0 0 1 7 2.5V5h2V2.5A1.5 1.5 0 0 1 10.5 1h1A1.5 1.5 0 0 1 13 2.5v2.382a.5.5 0 0 0 .276.447l.895.447A1.5 1.5 0 0 1 15 7.118V14.5a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 14.5v-3a.5.5 0 0 1 .146-.354l.854-.853V9.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v.793l.854.853A.5.5 0 0 1 7 11.5v3A1.5 1.5 0 0 1 5.5 16h-3A1.5 1.5 0 0 1 1 14.5V7.118a1.5 1.5 0 0 1 .83-1.342l.894-.447A.5.5 0 0 0 3 4.882V2.5zM4.5 2a.5.5 0 0 0-.5.5V3h2v-.5a.5.5 0 0 0-.5-.5h-1zM6 4H4v.882a1.5 1.5 0 0 1-.83 1.342l-.894.447A.5.5 0 0 0 2 7.118V13h4v-1.293l-.854-.853A.5.5 0 0 1 5 10.5v-1A1.5 1.5 0 0 1 6.5 8h3A1.5 1.5 0 0 1 11 9.5v1a.5.5 0 0 1-.146.354l-.854.853V13h4V7.118a.5.5 0 0 0-.276-.447l-.895-.447A1.5 1.5 0 0 1 12 4.882V4h-2v1.5a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V4zm4-1h2v-.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5V3zm4 11h-4v.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5V14zm-8 0H2v.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5V14z"
+                  />
+                </svg>
+              </span>
+              <h3 class="mb-4">Design</h3>
+              <p>
+                Web Design with your customer in mind. Consideration of user
+                experience, search engine optimization, accessibility, and
+                technical details to perform in today’s competitive marketplace.
+                Flawless functionality across all user devices.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-4 text-center mb-5"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="site-service-item" data-animate-effect="fadeIn">
+              <span class="icon">
+                <svg
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 16 16"
+                  class="bi bi-basket3"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10.243 1.071a.5.5 0 0 1 .686.172l3 5a.5.5 0 1 1-.858.514l-3-5a.5.5 0 0 1 .172-.686zm-4.486 0a.5.5 0 0 0-.686.172l-3 5a.5.5 0 1 0 .858.514l3-5a.5.5 0 0 0-.172-.686z"
+                  />
+                  <path
+                    d="M0 6.5A.5.5 0 0 1 .5 6h15a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1zM.81 9c0 .035.004.07.011.105l1.201 5.604A1 1 0 0 0 3 15.5h10a1 1 0 0 0 .978-.79l1.2-5.605A.495.495 0 0 0 15.19 9h-1.011L13 14.5H3L1.821 9H.81z"
+                  />
+                </svg>
+              </span>
+              <h3 class="mb-4">Marketing</h3>
+              <p>
+                Your story brought to life. With careful consideration of color
+                schemes, typography, and essential design principles, I will
+                work with you every step of the way toward building a presence
+                you’ll be proud to represent your brand.
+              </p>
+            </div>
           </div>
 
-        </div>
-
-
-      </div>
-    </div>
-  </div>
-
-  <div class="untree_co-section" id="contact-section">
-    <div class="container">
-
-      <div class="row">
-        <div class="col-md-12 mb-5" data-aos="fade-up" data-aos-delay="0">
-          <div class="section-heading text-center">
-            <h2>Contact Me</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-
-        <div class="col-lg-3">
-          <h3 class="h5 mb-4"><i class="far fa-calendar-alt"></i> Schedule a Call</h3>
-
-          <a href="https://calendly.com/ellienguyendev/30min">View My Calendar</a>
-
-        </div> <!-- /.col-lg-3 -->
-
-        <div class="col-lg-6">
-
-          <h3 class="h5 mb-4"><i class="fas fa-envelope-open-text"></i> Email</h3>
-          <a href="mailto::ellienguyendev@gmail.com"> ellienguyendev@gmail.com</a>
-
-        </div> <!-- /.col-lg-6 -->
-
-        <div class="col-lg-3 ml-auto center-text" data-aos="fade-up" data-aos-delay="200">
-          <h3 class="h5 mb-4"><i class="fas fa-globe-americas"></i> Stay Connected</h3>
-          <span>
-            <a href="https://www.github.com/ellienguyendev" target="_blank"> Github</a>
-            <span> | </span>
-            <a href="https://www.linkedin.com/in/ellienguyendev" target="_blank">LinkedIn</a>
-          </span>
-        </div> <!-- /.col-lg-3 -->
-      </div> <!-- /.row -->
-    </div> <!-- /.container -->
-  </div> <!-- /.untree_co-section bg-light -->
-
-  <div class="site-footer">
-
-    <div class="footer-dots"></div> <!-- /.footer-dots -->
-    <div class="container">
-
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="widget">
-            <h3>More About Me<span class="text-primary">.</span> </h3>
-            <p>When I'm not coding or creating, I enjoy writing, exploring in nature, cooking, and listening to
-              podcasts. Send me your favorites!</p>
-          </div> <!-- /.widget -->
-          <div class="widget">
-            <h3>Connect</h3>
-            <ul class="list-unstyled social">
-              <li><a href="https://github.com/ellienguyendev"><span class="icon-github"></span></a></li>
-              <li><a href="https://www.linkedin.com/in/ellienguyendev"><span class="icon-linkedin"></span></a></li>
-            </ul>
-          </div> <!-- /.widget -->
-        </div> <!-- /.col-lg-3 -->
-
-        <div class="col-lg-2 ml-auto">
-          <div class="widget">
-            <h3>Navagation</h3>
-            <ul class="list-unstyled float-left links">
-              <li><a href="#about-section">About</a></li>
-              <li><a href="#portfolio-section">Portfolio</a></li>
-              <li><a href="#services-section">Blog</a></li>
-            </ul>
-          </div> <!-- /.widget -->
-        </div> <!-- /.col-lg-3 -->
-
-        <div class="col-lg-2">
-          <div class="widget">
-            <h3>Blog</h3>
-            <ul class="list-unstyled float-left links">
-              <li><a href="#services-section">Web Design</a></li>
-              <li><a href="#services-section">eCommerce</a></li>
-              <li><a href="#services-section">WordPress</a></li>
-              <li><a href="#services-section">Development</a></li>
-            </ul>
-          </div> <!-- /.widget -->
-        </div> <!-- /.col-lg-3 -->
-
-
-        <div class="col-lg-3">
-          <div class="widget">
-            <h3>Contact</h3>
-            <ul class="list-unstyled links mb-4">
-              <li><a href="https://calendly.com/ellienguyendev/30min">Schedule a Call</a></li>
-              <li><a href="/images/resume-2020.pdf" download="Ellie-Nguyen-Resume" target="_blank">Download My
-                  Resume</a></li>
-              <li><a href="mailto:ellienguyendev@gmail.com">ellienguyendev@gmail.com</a></li>
-            </ul>
-          </div> <!-- /.widget -->
-        </div> <!-- /.col-lg-3 -->
-
-      </div> <!-- /.row -->
-
-      <div class="row mt-5">
-        <div class="col-12 text-center">
           <p>
-            Copyright &copy;<script>
-              document.write(new Date().getFullYear());
-            </script> | <span>Made with <i class="icon-heart text-danger" aria-hidden="true"></i> by Me, of
-              course!</span></p>
+            View the full blog on my main site:
+            <a href="https://holistictech.io/blog">The Holistic Technologist</a>
+          </p>
         </div>
       </div>
-    </div> <!-- /.container -->
-  </div> <!-- /.site-footer -->
-
-  <div id="overlayer"></div>
-  <div class="loader">
-    <div class="spinner-border" role="status">
-      <span class="sr-only">Loading...</span>
     </div>
-  </div>
+    <!-- /.untree_co-seciton -->
 
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/isotope.pkgd.min.js"></script>
-  <script src="js/jquery.fancybox.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/imagesloaded.pkgd.js"></script>
+    <div class="site-section bg-light mobile-hide" id="testimonials-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-12" data-aos="fade-up" data-aos-delay="0">
+            <div class="section-heading text-center">
+              <h2>What It's Like Working With Me</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12" data-aos="fade-up" data-aos-delay="100">
+            <div class="block-47 d-flex mb-5">
+              <div class="block-47-image">
+                <img
+                  src="images/ab.jpeg"
+                  alt="Image placeholder"
+                  class="img-fluid"
+                />
+              </div>
+              <blockquote class="block-47-quote">
+                <p>
+                  &ldquo;I had the pleasure of hiring Ellie to create a website
+                  for my business; I realized that outsourcing would make a
+                  better use of my time, and I approached them as my first
+                  choice. As usual, Ellie did not disappoint. After I
+                  communicated my vision, Ellie went above and beyond and did
+                  not deliver on my expectations, but instead far surpassed
+                  them. What could have been a simple front-end project, Ellie
+                  turned into a full-stack web app with features that will
+                  significantly reduce the time and effort I will need to
+                  maintain my operations. I cannot communicate how immensely
+                  grateful for their work, nor how pleased I am with this
+                  project. Ellie's ability to anticipate even the unspoken needs
+                  of both the business and consumer lended to an exceptional
+                  execution of user experience.
+                </p>
 
-  <script src="js/custom.js"></script>
+                <p>
+                  I am most confident that Ellie can achieve absolutely anything
+                  to which they set their mind. They possess the competencies
+                  necessary for any full-stack role: on a team or solo, managing
+                  or supporting, coding or instructing. The pleasure would truly
+                  be yours to hire them.&rdquo;
+                </p>
+                <cite class="block-47-quote-author"
+                  >&mdash; Anthony Betances
+                  <a href="#">Software Engineer, Business Owner</a></cite
+                >
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-</body>
+    <div class="untree_co-section" id="contact-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mb-5" data-aos="fade-up" data-aos-delay="0">
+            <div class="section-heading text-center">
+              <h2>Contact Me</h2>
+            </div>
+          </div>
+        </div>
 
+        <div class="row">
+          <div class="col-lg-3">
+            <h3 class="h5 mb-4">
+              <i class="far fa-calendar-alt"></i> Schedule a Call
+            </h3>
+
+            <a href="https://calendly.com/ellienguyendev/30min"
+              >View My Calendar</a
+            >
+          </div>
+          <!-- /.col-lg-3 -->
+
+          <div class="col-lg-6">
+            <h3 class="h5 mb-4">
+              <i class="fas fa-envelope-open-text"></i> Email
+            </h3>
+            <a href="mailto::ellienguyendev@gmail.com">
+              ellienguyendev@gmail.com</a
+            >
+          </div>
+          <!-- /.col-lg-6 -->
+
+          <div
+            class="col-lg-3 ml-auto center-text"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <h3 class="h5 mb-4">
+              <i class="fas fa-globe-americas"></i> Stay Connected
+            </h3>
+            <span>
+              <a href="https://www.github.com/ellienguyendev" target="_blank">
+                Github</a
+              >
+              <span> | </span>
+              <a
+                href="https://www.linkedin.com/in/ellienguyendev"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </span>
+          </div>
+          <!-- /.col-lg-3 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.untree_co-section bg-light -->
+
+    <div class="site-footer">
+      <div class="footer-dots"></div>
+      <!-- /.footer-dots -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="widget">
+              <h3>More About Me<span class="text-primary">.</span></h3>
+              <p>
+                When I'm not coding or creating, I enjoy writing, exploring in
+                nature, cooking, and listening to podcasts. Send me your
+                favorites!
+              </p>
+            </div>
+            <!-- /.widget -->
+            <div class="widget">
+              <h3>Connect</h3>
+              <ul class="list-unstyled social">
+                <li>
+                  <a href="https://github.com/ellienguyendev"
+                    ><span class="icon-github"></span
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/ellienguyendev"
+                    ><span class="icon-linkedin"></span
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <!-- /.widget -->
+          </div>
+          <!-- /.col-lg-3 -->
+
+          <div class="col-lg-2 ml-auto">
+            <div class="widget">
+              <h3>Navagation</h3>
+              <ul class="list-unstyled float-left links">
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#portfolio-section">Portfolio</a></li>
+                <li><a href="#services-section">Blog</a></li>
+              </ul>
+            </div>
+            <!-- /.widget -->
+          </div>
+          <!-- /.col-lg-3 -->
+
+          <div class="col-lg-2">
+            <div class="widget">
+              <h3>Blog</h3>
+              <ul class="list-unstyled float-left links">
+                <li><a href="#services-section">Web Design</a></li>
+                <li><a href="#services-section">eCommerce</a></li>
+                <li><a href="#services-section">WordPress</a></li>
+                <li><a href="#services-section">Development</a></li>
+              </ul>
+            </div>
+            <!-- /.widget -->
+          </div>
+          <!-- /.col-lg-3 -->
+
+          <div class="col-lg-3">
+            <div class="widget">
+              <h3>Contact</h3>
+              <ul class="list-unstyled links mb-4">
+                <li>
+                  <a href="https://calendly.com/ellienguyendev/30min"
+                    >Schedule a Call</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="/images/resume-2020.pdf"
+                    download="Ellie-Nguyen-Resume"
+                    target="_blank"
+                    >Download My Resume</a
+                  >
+                </li>
+                <li>
+                  <a href="mailto:ellienguyendev@gmail.com"
+                    >ellienguyendev@gmail.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- /.widget -->
+          </div>
+          <!-- /.col-lg-3 -->
+        </div>
+        <!-- /.row -->
+
+        <div class="row mt-5">
+          <div class="col-12 text-center">
+            <p>
+              Copyright &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              |
+              <span
+                >Made with
+                <i class="icon-heart text-danger" aria-hidden="true"></i> by Me,
+                of course!</span
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.site-footer -->
+
+    <div id="overlayer"></div>
+    <div class="loader">
+      <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/imagesloaded.pkgd.js"></script>
+
+    <script src="js/custom.js"></script>
+  </body>
 </html>
